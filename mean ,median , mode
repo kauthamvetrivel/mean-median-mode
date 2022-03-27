@@ -1,0 +1,7 @@
+import pandas as pd
+data=pd.read_csv('/Users/ks/Desktop/hypotest.csv')
+data.head()
+data.NETWORK_SPEED.mean()
+data.NETWORK_SPEED.median()
+data.NETWORK_SPEED.mode()
+
